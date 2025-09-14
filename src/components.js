@@ -19,7 +19,8 @@ export const Header = {
       })
     },
     Text_logo: { href: '/', text: 'Hello!' },
-    Text_about: { href: '/about', text: 'About' }
+    Text_about: { href: '/about', text: 'About' },
+    Text_Grid: { href: '/grid', text: 'Grid' },
   },
 
   ThemeSwitcher: {}

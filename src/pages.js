@@ -1,5 +1,7 @@
 'use strict'
 
+import { GridComponent } from "./gridComponent"
+
 export default {
   '/': {
     H1: { text: 'Hello Symbols' },
@@ -8,5 +10,6 @@ export default {
   '/about': {
     H3: { text: 'This is Symbols starter-kit' },
     P: { text: 'Lorem ipsum dolor sit amet' }
-  }
+  },
+  '/grid': GridComponent
 }
